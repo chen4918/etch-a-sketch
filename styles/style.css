@@ -1,0 +1,57 @@
+html {
+  background-color: #43516C;
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 1rem;
+  color: #E5E8C7;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.instructions {
+  font-size: 2rem;
+  color: #E5E8C7;
+  font-weight: bold;
+}
+
+.button-container {
+  margin: 2rem;
+}
+
+button {
+  height: 3rem;
+  width: 150px;
+  border-radius: 10px;
+  margin: 0 0.5rem;
+  outline: none;
+}
+
+button #black-button {
+
+}
+
+button #color-button {
+
+}
+
+button #reset-button {
+
+}
+
+.sketchpad {
+  width: 640px;
+  height: 640px;
+  border: 1px solid black;
+  background-color: white;
+}
