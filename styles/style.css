@@ -37,21 +37,32 @@ button {
   outline: none;
 }
 
-button #black-button {
-
+#black-button {
+  font-weight: bold;
+  color: white;
+  background-color: #777777;
 }
 
-button #color-button {
-
+#color-button {
+  font-weight: bold;
+  color: white;
+  background-color: #187bcd;
 }
 
-button #reset-button {
-
+#reset-button {
+  font-weight: bold;
+  color: black;
+  background-color: white;
 }
 
-.sketchpad {
+.sketch-pad {
   width: 640px;
   height: 640px;
-  border: 1px solid black;
+  border: 1px solid #EEE;
   background-color: white;
+  line-height: 50%;
+}
+
+.sketch-pad > div {
+  box-sizing: border-box;
 }
